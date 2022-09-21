@@ -1,8 +1,8 @@
 import * as React from 'react';
 import styled from '@emotion/styled'
-import { Box, Container, TextField, Typography, Button, CircularProgress } from '@mui/material'
+import { Box, Container, TextField, Typography, Button } from '@mui/material'
 import axios from 'axios'
-import Loading from '../../components/Loading';
+import Loading from '@/components/Loading';
 import { useRouter } from 'next/router';
 
 const Wrapper = styled(Box)`

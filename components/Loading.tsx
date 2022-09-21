@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { CircularProgress, Container } from '@mui/material'
+import { CircularProgress } from '@mui/material'
 
 const Wrapper = styled.div`
     width: 100vw;

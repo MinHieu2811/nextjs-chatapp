@@ -4,9 +4,9 @@ import styled from '@emotion/styled'
 import { Box, Container, TextField, Typography, Button } from '@mui/material'
 import axios from 'axios';
 import { useRouter } from 'next/router';
-import Loading from '../../components/Loading';
+import Loading from '@/components/Loading';
 import { useSelector, useDispatch } from 'react-redux';
-import { selectAuthState, setAuthState } from '../../redux/authSlice';
+import { selectAuthState, setAuthState } from '@/redux/authSlice';
 
 const Wrapper = styled(Box)`
     width: 100%;

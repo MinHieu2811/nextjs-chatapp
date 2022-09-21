@@ -1,7 +1,7 @@
 import * as React from 'react';
 import axios from 'axios';
 import { useSelector } from 'react-redux';
-import { selectAuthState } from '../redux/authSlice';
+import { selectAuthState } from '@/redux/authSlice';
 import IconButton from "@mui/material/IconButton"
 import Avatar from "@mui/material/Avatar"
 import Tooltip from "@mui/material/Tooltip"
